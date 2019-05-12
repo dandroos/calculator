@@ -1,0 +1,37 @@
+.button {
+    align-self: center;
+    // font-size: 1.2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $secondary;
+    color: $primary;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .15s;
+    position: relative;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba($dark, 0.2);
+
+    &:hover {
+        box-shadow: 0 .1rem 1rem $light;
+        transform: translateY(-2px);
+    }
+
+    &:focus,
+    &:active {
+        background: $light;
+        outline: 0;
+    }
+
+
+}
+
+.operator {
+    background: $med-dark;
+    color: $light;
+}
+
+.clear {
+    background: $med-light;
+}

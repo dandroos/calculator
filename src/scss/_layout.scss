@@ -1,0 +1,42 @@
+.wrapper {
+    border: .5rem solid $secondary;
+    border-radius: .25rem;
+    height: 75vh;
+    width: 80%;
+    max-width: 600px;
+    background: rgba($light, .15);
+    box-shadow: 0.6rem 0.6rem 0.3rem rgba($dark, 0.2);
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 5% 95%;
+
+&-label{
+    font-size: 1.2rem;
+    padding: 0 .5rem;
+    color: $secondary;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .2rem;
+}
+
+}
+
+.calculator {
+    display: grid;
+    grid-template-rows: .95fr 3fr;
+    height: 100%;
+}
+
+.keypad {
+    display: grid;
+    grid-template-areas: 'clear multiply divide subtract'
+        'seven eight nine add'
+        'four five six add'
+        'one two three equals'
+        'zero zero decimal equals';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        // justify-content: space-between;
+    grid-gap: .75rem;
+    // margin: 1rem;
+}

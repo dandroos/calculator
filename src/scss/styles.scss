@@ -1,0 +1,29 @@
+
+@import './variables';
+@import './layout';
+@import './button';
+@import './display';
+@import './media';
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+  
+    //  border: 1px dotted green; 
+  }
+  
+  body {
+    background: linear-gradient(to top right, $primary, lighten($primary, 7.5%));
+    color: $secondary;
+    font-family: 'ubuntu';
+    box-sizing: border-box;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  

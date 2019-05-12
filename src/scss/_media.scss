@@ -1,0 +1,26 @@
+@media (max-width: 600px){
+    html{
+        font-size: 14px;
+    }
+    .App{
+        padding: 0 !important;
+        height: 100vh;
+    }
+    .wrapper{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 500px){
+
+    
+    .keypad{
+        grid-gap: .5rem;
+    }
+
+    .display, .keypad{
+        margin: .25rem;
+    }
+}
+
+

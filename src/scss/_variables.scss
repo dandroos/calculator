@@ -1,0 +1,11 @@
+// $primary: rgb(127, 186, 201);
+$primary: rgb(23, 81, 100);
+$secondary : invert($primary);
+
+$dark: darken($primary, 50%);
+$med-dark: darken($primary, 15%);
+$light: lighten($secondary, 50%);
+$med-light: lighten($secondary, 10%);
+
+$font-heading: 'helvetica';
+$font-body: 'arial';
